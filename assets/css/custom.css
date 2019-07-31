@@ -1,0 +1,106 @@
+@media only screen and (max-width: 575px) {
+    .link-left {
+        margin-right: 0 !important;
+    }
+}
+
+@media only screen and (min-width: 576px) {
+    .link-left {
+        margin-right: 10px !important;
+    }
+}
+
+.link-middle.button {
+    border: none !important;
+    font-size: 25px;
+    padding-top: 13px !important;
+    padding-bottom: 13px !important;
+}
+
+.link-middle.button:hover {
+    background-color: transparent;
+    color: white;
+}
+
+@media only screen and (max-width: 778px) {
+    .link-middle {
+        display: none !important;
+    }
+}
+
+footer {
+    padding: 0 !important;
+}
+
+
+.mouse-wrapper {
+    margin: 0 auto;
+    display: block;
+    width: 28px;
+    position: absolute;
+    z-index: 10;
+    left: 0;
+    right: 0;
+    bottom: 37px;
+    top: -50px !important;
+
+}
+
+.mouse {
+    width: 30px;
+    height: 47px;
+    border: 2px solid #fff;
+    border-radius: 14px;
+    -webkit-border-radius: 14px;
+    -moz-border-radius: 14px;
+}
+
+.mouse .mouse-scroll {
+    width: 4px;
+    height: 4px;
+    border-radius: 2px;
+    background: #fff;
+    position: relative;
+    top: 10px;
+    left: 11px;
+    -webkit-animation: scrolls 1.3s ease-out infinite;
+}
+
+@-webkit-keyframes scrolls {
+    0% {
+        top: 10px;
+        opacity: 1;
+        height: 4px;
+    }
+    95% {
+        top: 18px;
+        opacity: 0;
+        height: 10px;
+    }
+    100% {
+        top: 8px;
+        opacity: 1;
+        height: 4px;
+    }
+}
+
+.section.bg-dark {
+    padding: 50px 0;
+}
+
+.terms-and-co .nav-link {
+    color: black !important;
+}
+
+.terms-and-co .navbar-brand h5 {
+    color: black !important;
+}
+
+.terms-and-co .navbar-absolute .nav-toggle-btn .lines, .terms-and-co .navbar-absolute .nav-toggle-btn .lines:before, .terms-and-co .navbar-absolute .nav-toggle-btn .lines:after {
+    background: black !important;
+}
+
+a.button span {
+    text-transform: initial;
+    display: block;
+}

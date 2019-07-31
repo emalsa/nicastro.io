@@ -1,0 +1,4 @@
+User-agent: *
+Disallow: /terms-and-co.html/
+Disallow: /terms-and-co
+

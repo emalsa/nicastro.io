@@ -101,6 +101,6 @@ footer {
 }
 
 a.button span {
-    text-transform: initial;
-    display: block;
+    text-transform: initial !important;
+    display: block !important;
 }
